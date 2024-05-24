@@ -1,0 +1,91 @@
+.card-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #222; 
+  }
+  
+  .form-card {
+    width: 80%;
+    max-width: 800px; 
+    background-color: #333; 
+    color: #fff; 
+  }
+  
+  .form-card .form-control {
+    background-color: #444; 
+    color: #fff; 
+    border: 1px solid #555; 
+  }
+  
+  .form-card .form-control::placeholder {
+    color: #bbb;
+  }
+
+  .film-list-container {
+    background-color: #222; /* Fond moins noir */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%; /* Réduire la largeur du conteneur */
+    margin: 0 auto; /* Centrer le conteneur */
+  }
+  
+  .table-responsive {
+    max-height: 500px; /* Augmenter la hauteur du tableau */
+    overflow-y: auto; /* Ajouter un défilement vertical */
+    display: flex;
+    justify-content: center; /* Centrer le tableau horizontalement */
+  }
+  
+  .film-table {
+    background-color: #333; /* Fond de la table moins noir */
+    color: #fff; /* Texte blanc */
+    border: 1px solid #ffc107; /* Bordure jaune */
+    width: auto; /* Ajuster automatiquement la largeur de la table */
+    margin: 0 auto; /* Centrer le tableau */
+  }
+  
+  .film-table th,
+  .film-table td {
+    border: 1px solid #ffc107; /* Bordures des cellules jaunes */
+    padding: 15px; /* Augmenter la hauteur des lignes */
+    text-align: center; /* Centrer le texte */
+  }
+  
+  .film-table thead th {
+    background-color: #444; /* Fond des en-têtes de colonne */
+    color: #fff; /* Texte blanc des en-têtes de colonne */
+  }
+  
+  .film-image {
+    width: 50px; /* Ajuster la largeur de l'image */
+    height: auto; /* Ajuster automatiquement la hauteur de l'image */
+  }
+  
+  .btn-warning {
+    background-color: #ffc107; /* Bouton de mise à jour jaune */
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Bouton de suppression rouge */
+    border: none;
+  }
+  
+  .btn {
+    margin-right: 5px; /* Espace entre les boutons */
+    color: #fff;
+  }
+  
+  .btn:hover {
+    opacity: 0.8; /* Légère transparence au survol */
+  }
+  
